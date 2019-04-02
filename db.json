@@ -1,0 +1,516 @@
+{
+  "count": 29,
+  "value": [
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Anker, Oliver",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/e8941885-3280-40d9-8ad9-1386825a9f61",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=e8941885-3280-40d9-8ad9-1386825a9f61"
+          }
+        },
+        "id": "e8941885-3280-40d9-8ad9-1386825a9f61",
+        "uniqueName": "D-FS01\\DKX8ZGE",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=e8941885-3280-40d9-8ad9-1386825a9f61"
+      },
+      "changedDate": "2018-12-06T11:47:29.747Z",
+      "changeType": "Deploy",
+      "changeDetails": "Queued deployment on 'Test Lab 1'"
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Microsoft.TeamFoundation.System",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/000007f5-0000-8888-8000-000000000000",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+          }
+        },
+        "id": "000007f5-0000-8888-8000-000000000000",
+        "uniqueName": "000007F5-0000-8888-8000-000000000000@00000000-0000-0000-0000-000000000000",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+      },
+      "changedDate": "2018-12-06T11:47:29.823Z",
+      "changeType": "Deploy",
+      "changeDetails": "Triggered deployment on 'Test Lab 1'"
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Microsoft.TeamFoundation.System",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/000007f5-0000-8888-8000-000000000000",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+          }
+        },
+        "id": "000007f5-0000-8888-8000-000000000000",
+        "uniqueName": "000007F5-0000-8888-8000-000000000000@00000000-0000-0000-0000-000000000000",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+      },
+      "changedDate": "2018-12-06T12:02:40.677Z",
+      "changeType": "Deploy",
+      "changeDetails": "Succeeded deployment on 'Test Lab 1'"
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Microsoft.TeamFoundation.System",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/000007f5-0000-8888-8000-000000000000",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+          }
+        },
+        "id": "000007f5-0000-8888-8000-000000000000",
+        "uniqueName": "000007F5-0000-8888-8000-000000000000@00000000-0000-0000-0000-000000000000",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+      },
+      "changedDate": "2018-12-06T12:02:40.753Z",
+      "changeType": "Deploy",
+      "changeDetails": "Queued deployment on 'DE_I_WEB_FOB'"
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Microsoft.TeamFoundation.System",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/000007f5-0000-8888-8000-000000000000",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+          }
+        },
+        "id": "000007f5-0000-8888-8000-000000000000",
+        "uniqueName": "000007F5-0000-8888-8000-000000000000@00000000-0000-0000-0000-000000000000",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+      },
+      "changedDate": "2018-12-06T12:02:40.833Z",
+      "changeType": "Deploy",
+      "changeDetails": "Triggered deployment on 'DE_I_WEB_FOB'"
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Anker, Oliver",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/e8941885-3280-40d9-8ad9-1386825a9f61",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=e8941885-3280-40d9-8ad9-1386825a9f61"
+          }
+        },
+        "id": "e8941885-3280-40d9-8ad9-1386825a9f61",
+        "uniqueName": "D-FS01\\DKX8ZGE",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=e8941885-3280-40d9-8ad9-1386825a9f61"
+      },
+      "changedDate": "2018-12-06T12:03:08.037Z",
+      "changeType": "Approve",
+      "changeDetails": "Approved pre-deployment approval on 'DE_I_WEB_FOB'",
+      "comment": ""
+    },
+    {
+      "releaseId": 3485,
+      "changedDate": "2018-12-06T12:08:53.233Z",
+      "changeType": "Deploy",
+      "changeDetails": "Rejected deployment on 'DE_I_WEB_FOB'",
+      "comment": ""
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Anker, Oliver",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/e8941885-3280-40d9-8ad9-1386825a9f61",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=e8941885-3280-40d9-8ad9-1386825a9f61"
+          }
+        },
+        "id": "e8941885-3280-40d9-8ad9-1386825a9f61",
+        "uniqueName": "D-FS01\\DKX8ZGE",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=e8941885-3280-40d9-8ad9-1386825a9f61"
+      },
+      "changedDate": "2018-12-06T12:09:42.917Z",
+      "changeType": "Deploy",
+      "changeDetails": "Queued deployment on 'DE_I_WEB_FOB'"
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Microsoft.TeamFoundation.System",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/000007f5-0000-8888-8000-000000000000",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+          }
+        },
+        "id": "000007f5-0000-8888-8000-000000000000",
+        "uniqueName": "000007F5-0000-8888-8000-000000000000@00000000-0000-0000-0000-000000000000",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+      },
+      "changedDate": "2018-12-06T12:09:43.167Z",
+      "changeType": "Deploy",
+      "changeDetails": "Triggered deployment on 'DE_I_WEB_FOB'"
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Anker, Oliver",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/e8941885-3280-40d9-8ad9-1386825a9f61",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=e8941885-3280-40d9-8ad9-1386825a9f61"
+          }
+        },
+        "id": "e8941885-3280-40d9-8ad9-1386825a9f61",
+        "uniqueName": "D-FS01\\DKX8ZGE",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=e8941885-3280-40d9-8ad9-1386825a9f61"
+      },
+      "changedDate": "2018-12-06T12:09:47.353Z",
+      "changeType": "Approve",
+      "changeDetails": "Approved pre-deployment approval on 'DE_I_WEB_FOB'",
+      "comment": ""
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Ebeling, Robin",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/879ffc6a-4b0e-4460-a514-f00fbfaf941c",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=879ffc6a-4b0e-4460-a514-f00fbfaf941c"
+          }
+        },
+        "id": "879ffc6a-4b0e-4460-a514-f00fbfaf941c",
+        "uniqueName": "D-FS01\\DKX0FM4",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=879ffc6a-4b0e-4460-a514-f00fbfaf941c"
+      },
+      "changedDate": "2018-12-06T14:44:35.107Z",
+      "changeType": "Approve",
+      "changeDetails": "Approved post-deployment approval on 'DE_I_WEB_FOB'",
+      "comment": "successful installed on integration stage"
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Microsoft.TeamFoundation.System",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/000007f5-0000-8888-8000-000000000000",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+          }
+        },
+        "id": "000007f5-0000-8888-8000-000000000000",
+        "uniqueName": "000007F5-0000-8888-8000-000000000000@00000000-0000-0000-0000-000000000000",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+      },
+      "changedDate": "2018-12-06T14:44:35.45Z",
+      "changeType": "Deploy",
+      "changeDetails": "Succeeded deployment on 'DE_I_WEB_FOB'"
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Microsoft.TeamFoundation.System",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/000007f5-0000-8888-8000-000000000000",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+          }
+        },
+        "id": "000007f5-0000-8888-8000-000000000000",
+        "uniqueName": "000007F5-0000-8888-8000-000000000000@00000000-0000-0000-0000-000000000000",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+      },
+      "changedDate": "2018-12-06T14:44:35.577Z",
+      "changeType": "Deploy",
+      "changeDetails": "Queued deployment on 'DE_K_WEB_FOB'"
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Microsoft.TeamFoundation.System",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/000007f5-0000-8888-8000-000000000000",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+          }
+        },
+        "id": "000007f5-0000-8888-8000-000000000000",
+        "uniqueName": "000007F5-0000-8888-8000-000000000000@00000000-0000-0000-0000-000000000000",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+      },
+      "changedDate": "2018-12-06T14:44:35.73Z",
+      "changeType": "Deploy",
+      "changeDetails": "Triggered deployment on 'DE_K_WEB_FOB'"
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Ebeling, Robin",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/879ffc6a-4b0e-4460-a514-f00fbfaf941c",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=879ffc6a-4b0e-4460-a514-f00fbfaf941c"
+          }
+        },
+        "id": "879ffc6a-4b0e-4460-a514-f00fbfaf941c",
+        "uniqueName": "D-FS01\\DKX0FM4",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=879ffc6a-4b0e-4460-a514-f00fbfaf941c"
+      },
+      "changedDate": "2018-12-06T14:45:02.433Z",
+      "changeType": "Approve",
+      "changeDetails": "Approved pre-deployment approval on 'DE_K_WEB_FOB'",
+      "comment": "Ready for consolidation stage. Release aggreed with AMS ORM."
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Ianos, Silviu (EXTERN)",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/ce65ecbd-a2fe-42b5-8e93-9ced7aa91a7e",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=ce65ecbd-a2fe-42b5-8e93-9ced7aa91a7e"
+          }
+        },
+        "id": "ce65ecbd-a2fe-42b5-8e93-9ced7aa91a7e",
+        "uniqueName": "FS01\\DKX8X9E",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=ce65ecbd-a2fe-42b5-8e93-9ced7aa91a7e"
+      },
+      "changedDate": "2018-12-06T15:05:45.7Z",
+      "changeType": "Approve",
+      "changeDetails": "Approved pre-deployment approval on 'DE_K_WEB_FOB'",
+      "comment": ""
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Ianos, Silviu (EXTERN)",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/ce65ecbd-a2fe-42b5-8e93-9ced7aa91a7e",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=ce65ecbd-a2fe-42b5-8e93-9ced7aa91a7e"
+          }
+        },
+        "id": "ce65ecbd-a2fe-42b5-8e93-9ced7aa91a7e",
+        "uniqueName": "FS01\\DKX8X9E",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=ce65ecbd-a2fe-42b5-8e93-9ced7aa91a7e"
+      },
+      "changedDate": "2018-12-07T09:05:13Z",
+      "changeType": "Approve",
+      "changeDetails": "Approved post-deployment approval on 'DE_K_WEB_FOB'",
+      "comment": ""
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Ebeling, Robin",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/879ffc6a-4b0e-4460-a514-f00fbfaf941c",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=879ffc6a-4b0e-4460-a514-f00fbfaf941c"
+          }
+        },
+        "id": "879ffc6a-4b0e-4460-a514-f00fbfaf941c",
+        "uniqueName": "D-FS01\\DKX0FM4",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=879ffc6a-4b0e-4460-a514-f00fbfaf941c"
+      },
+      "changedDate": "2018-12-11T08:55:35.813Z",
+      "changeType": "Approve",
+      "changeDetails": "Approved post-deployment approval on 'DE_K_WEB_FOB'",
+      "comment": "Successful installed and tested on consolidation stage."
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Microsoft.TeamFoundation.System",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/000007f5-0000-8888-8000-000000000000",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+          }
+        },
+        "id": "000007f5-0000-8888-8000-000000000000",
+        "uniqueName": "000007F5-0000-8888-8000-000000000000@00000000-0000-0000-0000-000000000000",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+      },
+      "changedDate": "2018-12-11T08:55:35.9Z",
+      "changeType": "Deploy",
+      "changeDetails": "Succeeded deployment on 'DE_K_WEB_FOB'"
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Microsoft.TeamFoundation.System",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/000007f5-0000-8888-8000-000000000000",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+          }
+        },
+        "id": "000007f5-0000-8888-8000-000000000000",
+        "uniqueName": "000007F5-0000-8888-8000-000000000000@00000000-0000-0000-0000-000000000000",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+      },
+      "changedDate": "2018-12-11T08:55:35.94Z",
+      "changeType": "Deploy",
+      "changeDetails": "Queued deployment on 'DE_P_WEB_FOB'"
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Microsoft.TeamFoundation.System",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/000007f5-0000-8888-8000-000000000000",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+          }
+        },
+        "id": "000007f5-0000-8888-8000-000000000000",
+        "uniqueName": "000007F5-0000-8888-8000-000000000000@00000000-0000-0000-0000-000000000000",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+      },
+      "changedDate": "2018-12-11T08:55:35.99Z",
+      "changeType": "Deploy",
+      "changeDetails": "Triggered deployment on 'DE_P_WEB_FOB'"
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Richter, Andreas (Extern)",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/74e60ec7-f2b2-4438-a8ab-1216a6123236",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=74e60ec7-f2b2-4438-a8ab-1216a6123236"
+          }
+        },
+        "id": "74e60ec7-f2b2-4438-a8ab-1216a6123236",
+        "uniqueName": "FS01\\DKX8W44",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=74e60ec7-f2b2-4438-a8ab-1216a6123236"
+      },
+      "changedDate": "2018-12-11T12:06:48.27Z",
+      "changeType": "Approve",
+      "changeDetails": "Approved pre-deployment approval on 'DE_P_WEB_FOB'",
+      "comment": ""
+    },
+    {
+      "releaseId": 3485,
+      "changedDate": "2018-12-12T11:02:13.19Z",
+      "changeType": "Deploy",
+      "changeDetails": "Rejected deployment on 'DE_P_WEB_FOB'",
+      "comment": ""
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Wiehle, Stefan",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/609a9210-867f-4569-9394-a9c682ad9058",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=609a9210-867f-4569-9394-a9c682ad9058"
+          }
+        },
+        "id": "609a9210-867f-4569-9394-a9c682ad9058",
+        "uniqueName": "D-FS01\\DKX0WIE",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=609a9210-867f-4569-9394-a9c682ad9058"
+      },
+      "changedDate": "2018-12-12T11:04:34.07Z",
+      "changeType": "Deploy",
+      "changeDetails": "Queued deployment on 'DE_P_WEB_FOB'"
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Microsoft.TeamFoundation.System",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/000007f5-0000-8888-8000-000000000000",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+          }
+        },
+        "id": "000007f5-0000-8888-8000-000000000000",
+        "uniqueName": "000007F5-0000-8888-8000-000000000000@00000000-0000-0000-0000-000000000000",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+      },
+      "changedDate": "2018-12-12T11:04:34.19Z",
+      "changeType": "Deploy",
+      "changeDetails": "Triggered deployment on 'DE_P_WEB_FOB'"
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Schoenfeld, Sascha",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/40b01a8e-c8c5-4620-953e-0a58e933074a",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=40b01a8e-c8c5-4620-953e-0a58e933074a"
+          }
+        },
+        "id": "40b01a8e-c8c5-4620-953e-0a58e933074a",
+        "uniqueName": "FS01\\DKX0PPS",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=40b01a8e-c8c5-4620-953e-0a58e933074a"
+      },
+      "changedDate": "2018-12-12T11:09:09.87Z",
+      "changeType": "Approve",
+      "changeDetails": "Approved pre-deployment approval on 'DE_P_WEB_FOB'",
+      "comment": ""
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Dilirici, Ioana (EXTERN)",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/36e81a50-9223-48f6-97e5-2426aca94cea",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=36e81a50-9223-48f6-97e5-2426aca94cea"
+          }
+        },
+        "id": "36e81a50-9223-48f6-97e5-2426aca94cea",
+        "uniqueName": "FS01\\DKX8EYR",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=36e81a50-9223-48f6-97e5-2426aca94cea"
+      },
+      "changedDate": "2018-12-12T11:16:11.527Z",
+      "changeType": "Approve",
+      "changeDetails": "Approved post-deployment approval on 'DE_P_WEB_FOB'",
+      "comment": ""
+    },
+    {
+      "releaseId": 3485,
+      "changedBy": {
+        "displayName": "Microsoft.TeamFoundation.System",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/000007f5-0000-8888-8000-000000000000",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+          }
+        },
+        "id": "000007f5-0000-8888-8000-000000000000",
+        "uniqueName": "000007F5-0000-8888-8000-000000000000@00000000-0000-0000-0000-000000000000",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=000007f5-0000-8888-8000-000000000000"
+      },
+      "changedDate": "2018-12-12T11:16:11.583Z",
+      "changeType": "Deploy",
+      "changeDetails": "Succeeded deployment on 'DE_P_WEB_FOB'"
+    },
+    {
+      "releaseId": 3485,
+      "definitionSnapshotRevision": 1,
+      "changedBy": {
+        "displayName": "Anker, Oliver",
+        "url": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_apis/Identities/e8941885-3280-40d9-8ad9-1386825a9f61",
+        "_links": {
+          "avatar": {
+            "href": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=e8941885-3280-40d9-8ad9-1386825a9f61"
+          }
+        },
+        "id": "e8941885-3280-40d9-8ad9-1386825a9f61",
+        "uniqueName": "D-FS01\\DKX8ZGE",
+        "imageUrl": "http://tfs.t-fs01.vwfs-ad:8080/tfs/VWFSAG/_api/_common/identityImage?id=e8941885-3280-40d9-8ad9-1386825a9f61"
+      },
+      "changedDate": "2018-12-06T11:47:29.62Z",
+      "changeType": "Create",
+      "changeDetails": "Created 'Release-181_20181206.1'"
+    }
+  ]
+}
