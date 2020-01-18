@@ -1,3 +1,46 @@
+<?php 
+//index.php
+
+$nickname = '';
+$email = '';
+$yt_link = '';
+$message = '';
+
+function clean_text($string)
+{
+  $string = trim($string);
+  $string = stripslashes($string);
+  $string = htmlspecialchars($string);
+  return $string;
+}
+
+if (isset($_POST["submit"]))
+{
+  $nickname = clean_text($_POST["name"]);
+  $email = clean_text($_POST["email"]);
+  $yt_link = clean_text($_POST["subject"]);
+  $message = clean_text($_POST["message"]);
+
+  $file_open = fopen("contact_data.csv", "a");
+  $no_rows = count(file("contact_data.csv"));
+  if($no_rows > 1)
+  {
+    $no_rows = ($no_rows -1) +1;
+  }
+  $form_data = array(
+    'sr_no'   => $no_rows,
+    'Nickname'=> $nickname,
+    'Email'   => $email,
+    'YT-Link' => $yt_link,
+    'Message' => $message
+  );
+  fputcsv($file_open, $form_data);
+}
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="de">
 
@@ -48,16 +91,16 @@
       <div id="logo" class="pull-left">
         <!-- Uncomment below if you prefer to use a text logo -->
         <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
-         <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" title=""></a>
-        
+        <a href="#intro" class="scrollto"><h1 class="mb-4 pb-0"><span>Scurrows.tv</span></h1></a>
         
       </div>
       <nav id="">
-        <ul class="nav-menu pull-right">
+        <ul class="nav-menu float-right">
           <li><a href="https://twitter.com/scurrows" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></li>
           <li><a href="https://www.instagram.com/scurrows/" target="_blank" class="facebook"><i class="fa fa-instagram"></i></a></li>
           <li><a href="https://www.youtube.com/scurrows" target="_blank" class="google-plus"><i class="fa fa-youtube"></i></a></li>
           <li><a href="https://open.spotify.com/playlist/1bKwMEE3WQ4JYd345UMWx1?si=1sfISCQYRh-ODh92FgH1tg" target="_blank" class="google-plus"><i class="fa fa-spotify"></i></a></li>
+          <li><a href="​https://discord.gg/scurrows" target="_blank" class="twitter"><i class="fab fa-discord"></i></a></li>
         </ul>
       </nav>
     </div>
@@ -86,76 +129,49 @@
       <div class="container">
 
         <div class="section-header">
-          <br>
-          <br>
           <h2>Chatregeln </h2>
         </div>
 
         <div class="row justify-content-center">
           <div class="col-lg-9">
-            
               <ul id="faq-list">
-                  <h3>Allgemeine Live Stream Chat-Regeln</h3>
-                  <li>
-                  <a data-toggle="collapse" href="#rule1" class="collapsed">Regel I<i class="fa fa-minus-circle"></i></a>
-                  <div id="rule1" class="collapse" data-parent="#faq-list">
-                    <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p>
-                  </div>
-                </li>
 
                 <li>
-                  <a data-toggle="collapse" href="#rule2" class="collapsed">Regel II<i class="fa fa-minus-circle"></i></a>
-                  <div id="rule2" class="collapse" data-parent="#faq-list">
-                    <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p>
-                  </div>
-                </li>
-
-                <li>
-                  <a data-toggle="collapse" href="#rule3" class="collapsed">Regel III<i class="fa fa-minus-circle"></i></a>
-                  <div id="rule3" class="collapse" data-parent="#faq-list">
-                    <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p>
-                  </div>
-                </li>
-                <br>
-                <br>
-                <h3>GTA RP Live Stream Chat-Regeln</h3>
-                <h6>VERBOTEN IST:</h6>
-                <li>
-                  <a data-toggle="collapse" class="collapsed" href="#faq1">BSG<i class="fa fa-minus-circle"></i></a>
+                  <a data-toggle="collapse" class="collapsed" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="fa fa-minus-circle"></i></a>
                   <div id="faq1" class="collapse" data-parent="#faq-list">
                     <p>
-                      Zuschauern ist es nicht gestattet dem Streamer Anweisungen zu geben (Backseat Gaming), wie er sein RolePlay zu gestalten hat. Sämtliche Ideen/Vorschläge wie z.B.("Tuh dies..", "mach das..") zum aktuellen Spielgeschehen sind während des RP's zu unterlassen, da diese den Spielspaß nehmen und zu einem Ban auf dem Server führen können. 
+                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
                     </p>
                   </div>
                 </li>
       
                 <li>
-                  <a data-toggle="collapse" href="#faq2" class="collapsed">META<i class="fa fa-minus-circle"></i></a>
+                  <a data-toggle="collapse" href="#faq2" class="collapsed">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="fa fa-minus-circle"></i></a>
                   <div id="faq2" class="collapse" data-parent="#faq-list">
                     <p>
-                     Informationen zum Spielgeschehen auf dem RP Server, die der Streamer IC (In-Charakter) nicht weiß bzw. nicht erlebt hat, kann er daher auch nicht im RolePlay ausspielen und nutzen. META Informationen sind daher strengstens untersagt. Das nutzen dieser Info's führen auf dem RP Server zu einem Ban.
+                      Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
                     </p>
                   </div>
                 </li>
       
                 <li>
-                  <a data-toggle="collapse" href="#faq3" class="collapsed">STREAMSNIPING<i class="fa fa-minus-circle"></i></a>
+                  <a data-toggle="collapse" href="#faq3" class="collapsed">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="fa fa-minus-circle"></i></a>
                   <div id="faq3" class="collapse" data-parent="#faq-list">
                     <p>
-                      Es ist nicht gestattet sich Informationen aus dem Stream zu holen und diese für sich selbst zu nutzen und/oder den Streamer zu verfolgen und das Spielgeschehen damit aktiv zu beeinflussen. 
+                      Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
                     </p>
                   </div>
                 </li>
       
                 <li>
-                  <a data-toggle="collapse" href="#faq4" class="collapsed">SPOILER<i class="fa fa-minus-circle"></i></a>
+                  <a data-toggle="collapse" href="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="fa fa-minus-circle"></i></a>
                   <div id="faq4" class="collapse" data-parent="#faq-list">
                     <p>
-                      Es ist nicht gestattet dem Streamer Info's zu geben, die dieser selbst herausfinden möchte und/oder bereits im laufenden RP vergessen hat, da diese das RP beeinflussen und den Spielspaß verderben.
+                      Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
                     </p>
                   </div>
                 </li>
-      <!---
+      
                 <li>
                   <a data-toggle="collapse" href="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="fa fa-minus-circle"></i></a>
                   <div id="faq5" class="collapse" data-parent="#faq-list">
@@ -164,12 +180,17 @@
                     </p>
                   </div>
                 </li>
-      --->
+      
+                <li>
+                  <a data-toggle="collapse" href="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="fa fa-minus-circle"></i></a>
+                  <div id="faq6" class="collapse" data-parent="#faq-list">
+                    <p>
+                      Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                    </p>
+                  </div>
+                </li>
+      
               </ul>
-              <br>
-              <p>Die Server-Regeln auf jedem Projekt sind so, dass man sich an die Regeln als Spieler halten muss. Sobald ich die Information aus dem Chat nutzen würde, würde ich permanent gebannt werden, sowie jeder Spieler! </p>
-<p>Davon abgesehen möchte ich auch wenn es erlaubt wäre, nicht gespoilert werden, genauso wie sehr viele andere im Chat auch! Ihr seid Zuschauer, ihr sollt genießen! Gerne zum Spielgeschehen etwas sagen, aber nicht mehr.</p>
-<p>RP bedeutet auch nicht, dass man der Schlauste sein muss und gewinnen muss, sondern absichtliches vergessen oder sonstiges gehören ebenfalls zum RP! Das Ganze ist ein Rollenspiel, merkt euch das. Kein "Ich-muss-gewinnen-Spiel".</p>
           </div>
         </div>
 
@@ -266,25 +287,24 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-6 col-md-6 footer-info">
+          <div class="col-lg-3 col-md-6 footer-info">
             <img src="img/logo.png" alt="TheEvenet">
             <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p>
           </div>
 
-          <div class="col-lg-6 col-md-6 footer-links">
+          <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="fa fa-angle-right"></i> <a href="#intro">Start</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="https://www.youtube.com/channel/UCL68ZdM_aGd2TgMviT5-sXg/membership" target="_blank">VIP werden</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="https://streamelements.com/scurrows/tip" target="_blank">Spende da lassen</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="​https://discord.gg/scurrows" target="_blank">Discord beitreten</a></li>
-              </ul>
+              <li><i class="fa fa-angle-right"></i> <a href="#intro">Home</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#faq">About us</a></li>
+            </ul>
             <br>
             <div class="social-links">
               <a href="https://twitter.com/scurrows" class="twitter"><i class="fa fa-twitter"></i></a>
               <a href="https://www.instagram.com/scurrows/" class="facebook"><i class="fa fa-instagram"></i></a>
               <a href="https://www.youtube.com/scurrows" class="google-plus"><i class="fa fa-youtube"></i></a>
               <a href="https://open.spotify.com/playlist/1bKwMEE3WQ4JYd345UMWx1?si=1sfISCQYRh-ODh92FgH1tg" class="google-plus"><i class="fa fa-spotify"></i></a>
+              <a href="​https://discord.gg/scurrows" class="discord"><i class="fab fa-discord"></i></a>
             </div>
           </div>
 
