@@ -1166,6 +1166,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
 }
 
+img #subscribe {
+  padding-top: 50px
+}
+
 #subscribe:before {
   content: "";
   background: rgba(6, 12, 34, 0.6);
