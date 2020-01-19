@@ -12,9 +12,9 @@ ______________________________________
     Thubmnails austauschen
   r-04
     Formular fixen
-  o-05
+  d-05
     Emotes größer und nicht mehr grau
-  o-06
+  d-06
     neue Emote bilder hinzufügen
   f-07
     Meint ihr, wir sollten das NewLife Forum auch dann einbinden ? :monkaThink: Sollte vielleicht nicht unerwähnt bleiben
